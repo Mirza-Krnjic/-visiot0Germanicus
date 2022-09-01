@@ -1,0 +1,32 @@
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+button {
+  align-self: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  margin: 5px auto;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}

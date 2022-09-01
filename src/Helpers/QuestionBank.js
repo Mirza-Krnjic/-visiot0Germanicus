@@ -1,0 +1,38 @@
+export const Questions = [
+  {
+    prompt: "1. What is 1 + 1 ?",
+    prompt2: "The answer is: ___ ?",
+    optionA: "1",
+    optionB: "2",
+    optionC: "3",
+    optionD: "4",
+    answer: "C",
+  },
+  {
+    prompt: "2. I love my",
+    prompt2: "The answer is: ___ ?",
+    optionA: "house",
+    optionB: "cat",
+    optionC: "banana",
+    optionD: "ball",
+    answer: "A",
+  },
+  {
+    prompt: "3. I love my",
+    prompt2: "The answer is: ___ ?",
+    optionA: "house",
+    optionB: "cat",
+    optionC: "banana",
+    optionD: "ball",
+    answer: "A",
+  },
+  {
+    prompt: "4. I love my",
+    prompt2: "The answer is: ___ ?",
+    optionA: "house",
+    optionB: "cat",
+    optionC: "banana",
+    optionD: "ball",
+    answer: "A",
+  },
+]

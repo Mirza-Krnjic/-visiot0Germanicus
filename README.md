@@ -1,6 +1,6 @@
 ## JS Stack Test - Germanicus
 
-ECommerce React Application made for an local art gallery.
+Coding test
 
 **Platform:** Web
 

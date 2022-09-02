@@ -9,13 +9,29 @@ function App() {
   const [gameState, setGameState] = useState("menu")
   const [score, setScore] = useState(0)
   const [retrainQuestions, setRetrainQuestions] = useState([])
+  const [isRetraining, setIsRetraining] = useState(false)
+  const [isStartRetrain, setIsStartRetrain] = useState(false)
+  const [isGameOver, setIsGameOver] = useState(false)
 
   return (
     <div className="App">
       <h1>Germanicus</h1>
 
       <QuizContext.Provider
-        value={{ gameState, setGameState, score, setScore }}
+        value={{
+          gameState,
+          setGameState,
+          score,
+          setScore,
+          retrainQuestions,
+          setRetrainQuestions,
+          isRetraining,
+          setIsRetraining,
+          isStartRetrain,
+          setIsStartRetrain,
+          isGameOver,
+          setIsGameOver,
+        }}
       >
         {gameState === "menu" && <MainMenu />}
         {gameState === "quiz" && <Quiz />}

@@ -15,7 +15,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Germanicus</h1>
+      <div className="title">Germanicus</div>
+      {/* <h1>Germanicus</h1> */}
 
       <QuizContext.Provider
         value={{

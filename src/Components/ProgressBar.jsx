@@ -3,7 +3,9 @@ import Styled from "styled-components"
 
 const Container = Styled.div`
   progress {
-    margin: 8px auto;
+    margin: 15px auto;
+    margin-bottom: 30px;
+    padding-top: 6px;
   }
 
   progress[value] {
@@ -14,13 +16,13 @@ const Container = Styled.div`
   }
 
   progress[value]::-webkit-progress-bar {
-    height: 10px;
+    height: 15px;
     border-radius: 20px;
     background-color: #eee;
   }  
 
   progress[value]::-webkit-progress-value {
-    height: 10px;
+    height: 15px;
     border-radius: 20px;
     background-color: ${(props) => props.color};
   }
@@ -44,7 +46,7 @@ ProgressBar.propTypes = {
 
 ProgressBar.defaultProps = {
   max: 100,
-  color: "lightBlue",
+  color: "rgb(251,33,117)",
   width: "250px",
 }
 

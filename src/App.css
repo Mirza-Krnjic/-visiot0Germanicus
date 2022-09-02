@@ -1,7 +1,25 @@
+html {
+  background-color: #89d8d3;
+  background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+
 .App {
   text-align: center;
+  height: 80vh;
+  margin-top: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.title {
+  color: orange;
+  background-color: #3333338e;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 40px;
+  position: relative;
+  top: -100px;
+  left: 0px;
 }

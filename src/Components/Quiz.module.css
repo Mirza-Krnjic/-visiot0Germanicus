@@ -11,7 +11,7 @@
 }
 
 .options {
-  margin: 0 auto;
+  margin: 30px auto;
   display: grid;
   grid-template-columns: 150px 150px;
   grid-row: auto auto;
@@ -29,4 +29,8 @@ button {
   border-radius: 15px;
   font-size: 20px;
   cursor: pointer;
+}
+
+.active {
+  background-color: red;
 }

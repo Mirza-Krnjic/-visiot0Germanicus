@@ -8,6 +8,7 @@ import { QuizContext } from "./Helpers/Contexts"
 function App() {
   const [gameState, setGameState] = useState("menu")
   const [score, setScore] = useState(0)
+  const [retrainQuestions, setRetrainQuestions] = useState([])
 
   return (
     <div className="App">
